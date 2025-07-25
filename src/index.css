@@ -10,7 +10,10 @@ body {
 form {
   display: flex;
   flex-direction: column;
-  width: 90%;
+  border: 5px solid whitesmoke;
+  padding: 20px;
+  margin: 20px;
+  align-content: space-around;
 }
 
 input {

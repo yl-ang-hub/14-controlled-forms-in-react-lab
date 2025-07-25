@@ -1,11 +1,13 @@
-import React from "react";
+import "./index.css";
+import Bookshelf from "./components/BookShelf/Bookshelf";
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <h2>GA SEB</h2>
-    </div>
+    <>
+      <h1>My Bookshelf</h1>
+      <Bookshelf />
+    </>
   );
-}
+};
 
 export default App;
